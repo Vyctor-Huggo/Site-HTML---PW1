@@ -1,0 +1,505 @@
+body {
+    background: #F3EDEA;
+}
+
+div.cabecalho {
+    /* Cabeçalho */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    isolation: isolate;
+
+    position: absolute;
+    width: 1920px;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+}
+
+div.cabretang {
+    width: 100%;
+    height: 65px;
+
+    background: #E3A72B;
+    border-radius: 0px 0px 35px 35px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+}
+
+img.logo {
+        /* Ellipse 2 */
+
+
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 50px;
+    top: 150px;
+    
+    border-radius: 50%;
+    border: 10px solid rgba(166, 105, 22, 1);
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+img.frappucino {
+    border-radius: 50px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 330px;
+    height: 440px;
+    left: 1510px;
+    top: 485px;
+
+    background: #4D2D06;
+    box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+}
+
+img.cafefiltrado {
+    border-radius: 50px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 700px;
+    height: 370px;
+    left: 1140px;
+    top: 80px;
+
+    background: #2D1C0E;
+    box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+    }
+
+img.brigadeiro {
+    border-radius: 50px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    position: absolute;
+    width: 330px;
+    height: 440px;
+    left: 1140px;
+    top: 485px;
+
+    background: #4D2D06;
+    box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+}
+
+div.menu {
+    /* Menu */
+
+
+    /* Auto layout */
+
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    isolation: isolate;
+
+    position: absolute;
+    width: 410px;
+    height: 580px;
+    left: 1495px;
+    top: 35px;
+
+}
+
+div.menuretang {
+    /* Rectangle 6 */
+
+
+    width: 410px;
+    height: 580px;
+
+    background: #FFE17A;
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 0px 0px 0px 35px;
+    border: 10px solid #E3A72B;
+    
+    box-shadow: inset 0px 30px 14px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(-5px 5px 10px rgba(0, 0, 0, 0.25));
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+p.textomenu {
+    /* ·Cardápio */
+
+
+    position: absolute;
+    width: 350px;
+    height: 0px;
+    left: 0px;
+    top: 350px;
+
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+
+    color: #1A1A1A;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+}
+
+div.produtoscoluna {
+    position: absolute;
+    width: 250px;
+    height: 450px;
+}
+
+div.prodcardapretang {
+    position: absolute;
+    width: 650px;
+    height: 450px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(77, 45, 6, 0.5);
+    border-radius: 35px;
+}
+
+img.imgprodcardap {
+    position: absolute;
+    width: 220px;
+    height: 430px;
+    left: 0px;
+    top: 0px;
+
+    border-radius: 35px;
+    border: 10px solid #4D2D06;
+}
+
+p.tituloprodcardap {
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    left: 250px;
+    top: 0px;
+
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+p.texroprodcardap {
+    position: absolute;
+    width: 350px;
+    height: 370px;
+    left: 280px;
+    top: 80px;
+
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+
+    color: #FFFFFF;
+}
+
+#logomenu {
+    /* Ellipse 2 */
+
+
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 95px;
+    top: 60px;
+
+    border-radius: 50%;
+    border: 10px solid #6A3C0B;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    z-index: 4;
+}
+
+#nomelogo {
+    position: absolute;
+    width: 310px;
+    height: 50px;
+    left: 50px;
+    top: -30px;
+
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+
+    color: #1A1A1A;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+#buttonmenu {
+    position: absolute;
+    width: 60px;
+    height: 55px;
+    left: 1800px;
+    top: 7px;
+
+    background: url();
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    z-index: 3;
+    border:none!important
+}
+
+
+#imgbutton {
+    width: 100%; 
+    height: 100%;
+}
+
+#buttoninsta {
+    position: absolute;
+    width: 70px;
+    height: 60px;
+    left: 1720px;
+    top: 4px;
+
+    background: url();
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+    border:none!important
+}
+
+#textotelainicial {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+
+    position: absolute;
+    width: 900px;
+    height: 480px;
+    left: 50px;
+    top: 300px;
+
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: justify;
+    }
+
+#marcadagua{
+    /* Flutter */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 300px;
+    height: 90px;
+    left: 260px;
+    top: 820px;
+
+}
+
+#textomarcadagua {
+    /* AsteroidBuck’s© */
+
+
+    width: 300px;
+    height: 26px;
+
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+
+    color: rgba(26, 26, 26, 0.2);
+
+    mix-blend-mode: normal;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#imgmarcadagua{
+    width: 50px;
+    height: 50px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#titlecardap {
+    width: 1375px;
+    height: 330px;
+
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 130px;
+    line-height: 170px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: rgba(26, 26, 26, 1);
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+}
+
+#textotelacardap {
+    /* ·Cardápio */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    isolation: isolate;
+
+    position: absolute;
+    width: 1375px;
+    height: 330px;
+    left: 25px;
+    top: -50px;
+}
+
+#apresentacaocardap {
+    position: absolute;
+    width: 804px;
+    height: 38px;
+    left: 50px;
+    top: 400px;
+
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: rgba(26, 26, 26, 1);
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+}
